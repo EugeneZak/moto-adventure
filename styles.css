@@ -1,6 +1,10 @@
 .flex-container {
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+
 }
 .nav-container {
   display: flex;
@@ -8,6 +12,10 @@
   justify-content: center;
   padding: 10px;
   margin: 10px;
+}
+.nav-button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 
@@ -27,22 +35,18 @@ img.logo {
 img.icon {
   width: 50px;
 }
-
-p {
-    background-color: aqua;
-}
-h1 {
-    background-color: brown;
+.header-heading {
+    background-color: #909090;
 }
 body {
-    background-color: powderblue;
+    background-color: #909090;
     max-width: 90%;
     margin:auto;
   }
 .header {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background: #297373;
   background-image: url('/images/site/banner_image.jpg');
   background-size: 100%;
   color: white;
@@ -51,7 +55,7 @@ body {
 .footer {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background: #297373;
   color: white;
   font-size: 30px;
 }
@@ -61,4 +65,5 @@ body {
   width: 60%;
   margin: auto;
   padding: 10px;
+  background-color: #FF8552;
 }
