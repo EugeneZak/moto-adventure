@@ -32,7 +32,7 @@ Microsoft Copilot was used for the creation of the logo for MotoAdventure Club a
 
 #### Claude AI
 
-Claude AI was just to generate sample inspirational copy. 
+Claude AI was just to generate sample copy. 
 
 ## Deployment
 
