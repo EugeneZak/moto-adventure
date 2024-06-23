@@ -6,6 +6,22 @@ MotoAdventure Club is an imagined Dublin-based motorcycle breakfast run club for
 
 ## User Experiance (UX/UI)
 
+### User Stories
+
+#### First Time Visitor
+
+First time visitors are primarily interested in the following:
+
+* Find out what the club is about and a summary of activities.
+* Sign up for the the service by filling out the sign-up form.
+
+#### Returning Users
+
+Returning visitors will typically be interested in the following:
+
+* Determing when the next ride will be and familiaries themselves with the departure point.
+* Contact the club with questions and queries.
+
 ## Design 
 
 ### Wireframes
