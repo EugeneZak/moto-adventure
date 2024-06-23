@@ -54,6 +54,12 @@ Claude AI was just to generate sample copy.
 
 ## Testing
 
+## Issues and future developments
+
+### Forms
+
+The forms on the Signup page and Contact Us page are present to demonstrate the usage and stylign of HTML form elements. They do not interface with a back-end element at the moment as this will be covered in a later stage.
+
 ## Credits
 
 ### Media
