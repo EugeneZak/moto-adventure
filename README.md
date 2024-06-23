@@ -40,5 +40,15 @@ Claude AI was just to generate sample inspirational copy.
 
 ## Credits
 
+### Media
+
+#### Images
+
+All photographs were obtained from the free section of Unsplash.com. Specific images used are:
+
+##### Index Page:
+
+##### Gallery Page:
+
 
 
