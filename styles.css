@@ -1,3 +1,13 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+}
+img.logo {
+  width: 150px
+}
 p {
     background-color: aqua;
 }
@@ -7,6 +17,3 @@ h1 {
 body {
     background-color: powderblue;
   }
-image {
-  width: 150px;
-}
