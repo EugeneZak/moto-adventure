@@ -44,7 +44,7 @@ Balsamiq - Wireframes
 
 #### Microsoft Copilot (via Skype)
 
-Microsoft Copilot was used for the creation of the logo for MotoAdventure Club and Eugene Zak Develops.
+Microsoft Copilot was used for the creation of the logo for MotoAdventure Club and Eugene Zak Develops as well as the calendar icon on the index page to draw attention to the next ride information box.
 
 #### Claude AI
 
