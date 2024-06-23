@@ -1,3 +1,7 @@
+.flex-container {
+  display: flex
+}
+
 img.body {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -23,6 +27,8 @@ h1 {
 }
 body {
     background-color: powderblue;
+    max-width: 90%;
+    margin:auto;
   }
 .header {
   padding: 60px;
