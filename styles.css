@@ -9,9 +9,14 @@
 .nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 60%;
   padding: 10px;
   margin: 10px;
+  background-color: #E6E6E6;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 .nav-button {
   border: 1px solid #ddd;
@@ -66,4 +71,14 @@ body {
   margin: auto;
   padding: 10px;
   background-color: #FF8552;
+  border-radius: 4px;
+}
+#safety {
+  text-align: center;
+  border: 1px solid black;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  background-color: #FF8552;
+  border-radius: 4px;
 }
