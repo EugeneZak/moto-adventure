@@ -76,7 +76,7 @@ body {
   padding: 60px;
   text-align: center;
   background: #297373;
-  background-image: url('/images/site/banner_image.jpg');
+  background-image: url('images/site/banner_image.jpg');
   background-size: 100%;
   color: white;
   font-size: 30px;
