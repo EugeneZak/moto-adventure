@@ -79,7 +79,8 @@ body {
   background-image: url('images/site/banner_image.jpg');
   background-size: 100%;
   color: white;
-  font-size: 30px;
+  font-size: 15px;
+  max-height: 200px;
 }
 .footer {
   padding: 60px;

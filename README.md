@@ -41,9 +41,14 @@ Returning visitors will typically be interested in the following:
 #### Desktop Wireframes
 
 
-## Features
+## General Features
 
-![Page Screenshots](/resources/screenshots/index-screenshot.jpg)
+Each page features a unifrom header, navigation bar and footer.
+
+![Page Screenshots](/resources/screenshots/Index-screenshot.jpg)
+
+
+
 
 ## Technology 
 
