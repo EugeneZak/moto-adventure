@@ -24,7 +24,22 @@ Returning visitors will typically be interested in the following:
 
 ## Design 
 
+### Colour Scheme
+![Colour Scheme](/resources/palette/MACPalette.png)
+
+### Fonts
+
+### Images
+
 ### Wireframes
+
+#### Mobile Wireframes
+![Mobile Wireframes](/resources/wireframes/Wireframes-mobile.jpg)
+
+#### Tablet Wireframes
+
+#### Desktop Wireframes
+
 
 ## Features
 
