@@ -43,6 +43,8 @@ Returning visitors will typically be interested in the following:
 
 ## Features
 
+![Page Screenshots](/resources/screenshots/index-screenshot.jpg)
+
 ## Technology 
 
 ### Languages Used
