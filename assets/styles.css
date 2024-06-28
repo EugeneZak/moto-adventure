@@ -19,6 +19,7 @@
   background-color: #297373;
   border: 1px solid #ddd;
   border-radius: 4px;
+  flex-wrap: wrap;
 }
 
 a:link, a:visited {
@@ -44,17 +45,33 @@ a:link, a:visited {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+@media only screen and (max-width: 350px){
 
 img.gallery-image {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+}
+
+@media only screen and (min-width: 351px){
+
+  img.gallery-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
 
 /*Inline image styling*/
 img.body {
@@ -80,6 +97,24 @@ img.icon {
 .header-heading {
   background-color: #909090;
 }
+@media only screen and (max-width: 350px)
+{.header {
+  padding: 60px;
+  text-align: center;
+  background: #297373;
+  background-image: url('images/site/banner_image.jpg');
+  background-size: 100%;
+  color: white;
+  font-size: 15px;
+  max-height: 200px;
+  }
+h1, h2 {
+  font-size: 10px;
+}
+
+
+}
+@media only screen and (min-width: 351px) {
 
 .header {
   padding: 60px;
@@ -90,7 +125,9 @@ img.icon {
   color: white;
   font-size: 15px;
   max-height: 200px;
+  }
 }
+
  /*body styling*/
 body {
   background-color: #909090;
