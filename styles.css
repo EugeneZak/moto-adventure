@@ -1,3 +1,4 @@
+/* main styling container*/
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -6,24 +7,10 @@
   border-radius: 4px;
 
 }
-
+/*styling for navigation. White on green for maximum contrast.*/
 .nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-basis: 60%;
-  padding: 10px;
-  margin: 10px;
-  background-color: #E6E6E6;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.gallery-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-basis: 60%;
@@ -39,15 +26,19 @@
   border-radius: 4px;
 }
 
-img.body {
+/*Flexible Box Gallery*/
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 60%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #E6E6E6;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
-  max-width: 60%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.gallery-image {
@@ -55,6 +46,18 @@ img.gallery-image {
   border-radius: 4px;
   padding: 5px;
   max-width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Inline image styling*/
+img.body {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 60%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -69,14 +72,9 @@ img.icon {
   width: 50px;
 }
 
+/*header Styling*/
 .header-heading {
   background-color: #909090;
-}
-
-body {
-  background-color: #909090;
-  max-width: 90%;
-  margin: auto;
 }
 
 .header {
@@ -89,7 +87,14 @@ body {
   font-size: 15px;
   max-height: 200px;
 }
+ /*body styling*/
+body {
+  background-color: #909090;
+  max-width: 90%;
+  margin: auto;
+}
 
+/*footer styling*/
 .footer {
   padding: 60px;
   text-align: center;
@@ -98,17 +103,8 @@ body {
   font-size: 30px;
 }
 
-#next {
-  text-align: center;
-  border: 1px solid black;
-  width: 60%;
-  margin: auto;
-  padding: 10px;
-  background-color: #FF8552;
-  border-radius: 4px;
-}
-
-#safety {
+/*important events styling*/
+.important {
   text-align: center;
   border: 1px solid black;
   width: 60%;
