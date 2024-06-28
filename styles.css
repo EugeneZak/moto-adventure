@@ -6,6 +6,7 @@
   border-radius: 4px;
 
 }
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -18,6 +19,7 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+
 .gallery-container {
   display: flex;
   flex-direction: row;
@@ -31,11 +33,11 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+
 .nav-button {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-
 
 img.body {
   border: 1px solid #ddd;
@@ -45,8 +47,9 @@ img.body {
   height: auto;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
+
 img.gallery-image {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -55,23 +58,27 @@ img.gallery-image {
   height: auto;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 img.logo {
   width: 150px;
 }
+
 img.icon {
   width: 50px;
 }
+
 .header-heading {
-    background-color: #909090;
+  background-color: #909090;
 }
+
 body {
-    background-color: #909090;
-    max-width: 90%;
-    margin:auto;
-  }
+  background-color: #909090;
+  max-width: 90%;
+  margin: auto;
+}
+
 .header {
   padding: 60px;
   text-align: center;
@@ -82,6 +89,7 @@ body {
   font-size: 15px;
   max-height: 200px;
 }
+
 .footer {
   padding: 60px;
   text-align: center;
@@ -89,6 +97,7 @@ body {
   color: white;
   font-size: 30px;
 }
+
 #next {
   text-align: center;
   border: 1px solid black;
@@ -98,6 +107,7 @@ body {
   background-color: #FF8552;
   border-radius: 4px;
 }
+
 #safety {
   text-align: center;
   border: 1px solid black;
@@ -107,9 +117,10 @@ body {
   background-color: #FF8552;
   border-radius: 4px;
 }
+
 video {
   max-width: 50%;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }

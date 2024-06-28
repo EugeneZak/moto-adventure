@@ -23,10 +23,48 @@
                 <div class="nav-button"> <a href="contact.html">Contact Us</a></div>
                 </div>
             </nav>
-    <form action="" method="post">
-        <input type="email" name="email" />
+    <section>
+    <h2>Signup Form</h2>           
+    <form action="https://formdump.codeinstitute.net" method="POST">
+        <label for="firstname">First name:</label>  <input type="text" id="firstname" name="fname"> <br><br>
+        <label for="lastname">Last name:</label>  <input type="text" id="lastname" name="lname"> <br><br>
+        <label for="email">Email Address:</label>  <input type="email" name="email" />
+
+        <p>Will you be solo or have a pillion?</p>
+        <input type="radio" id="solo_pillion" name="solo_pillion" value="Solo">
+        <label for="solo">Solo</label><br>
+        <input type="radio" id="solo_pillion" name="solo_pillion" value="Pillion">
+        <label for="css">Pillion</label>        
+
+        <p>What is your Motorcycle Brand?</p>
+        <input type="radio" id="honda" name="moto_brand" value="Honda">
+        <label for="Honda">Honda</label><br>
+        <input type="radio" id="yamaha" name="moto_brand" value="Yamaha">
+        <label for="css">Yamaha</label><br>
+        <input type="radio" id="kawasaki" name="moto_brand" value="Kawasaki">
+        <label for="javascript">Kawasaki</label><br>
+        <input type="radio" id="suzuki" name="moto_brand" value="Suzuki">
+        <label for="javascript">Suzuki</label><br>
+        <input type="radio" id="suzuki" name="moto_brand" value="Harley">
+        <label for="javascript">Harley Davidson</label><br>
+        <input type="radio" id="triumph" name="moto_brand" value="Triumph">
+        <label for="javascript">Triumph</label><br>
+        <input type="radio" id="triumph" name="moto_brand" value="Other">
+        <label for="javascript">Other</label>
+        
+
+        <p>Do you have any dietary requirements?</p>
+            <input type="checkbox" id="diet_none" name="diet_none" value="None">
+            <label for="diet_none"> None</label><br>
+            <input type="checkbox" id="diet_vegetarian" name="diet_vegetarian" value="Vegetarian">
+            <label for="diet_vegetarian"> Vegetarian</label><br>
+            <input type="checkbox" id="diet_vegan" name="diet_vegan" value="Vegan">
+            <label for="diet_vegan"> Vegan</label><br><br>
+
         <input type="submit" />
     </form>
+    </section> 
+
     <footer>
         <div class="footer">
         <a href="https://www.eugenezak.com" target="_blank"><img class="logo" src="images/logos/EZD-Logo.jpg" alt="Eugene Zak Develops Logo"></a>
