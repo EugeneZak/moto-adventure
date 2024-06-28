@@ -21,10 +21,14 @@
   border-radius: 4px;
 }
 
-.nav-button {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+a:link, a:visited {
+  background-color: #297373;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
 
 /*Flexible Box Gallery*/
 .gallery-container {
